@@ -77,7 +77,7 @@ class TestDownloader():
         rc, file_prop, sc = obj.download()
         assert sc == 200 and rc == 0
 
-
+    # It will fail as the content is in string not bytes
     @mock.patch('requests.Session.get', return_value=mocked_request_dot_get_with_bytes_response(flag=1))
     def test_downlaoder_without_internet_string(self, mock_get):
 

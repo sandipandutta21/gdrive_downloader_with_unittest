@@ -11,3 +11,6 @@ python3 -m pytest -v
 
 # Test cases that could not be automated: 
   1. Downloading large files 
+
+# dependencies:
+  1. pytest --> 6.2.4

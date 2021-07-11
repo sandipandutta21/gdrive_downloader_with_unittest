@@ -14,3 +14,4 @@ python3 -m pytest -v
 
 # Dependencies:
   1. pytest --> 6.2.4
+  2. requests --> 2.25.1
